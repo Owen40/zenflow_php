@@ -1,0 +1,152 @@
+.red-more {
+    display: none;
+    text-align: center;
+}
+
+#lessBtn {
+    display: none;
+}
+
+.class {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-img {
+    width: 20%;
+    float: left;
+}
+
+.card-block {
+    width: 80%;
+    float: left;
+}
+
+/* Start class Button */
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+}
+   
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #b1dae7;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+   
+.cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+}
+   
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+   
+.cta:hover:before {
+    width: 100%;
+    background: #b1dae7;
+}
+   
+.cta:hover svg {
+    transform: translateX(0);
+}
+   
+.cta:active {
+    transform: scale(0.95);
+}
+
+.card-block-btn {
+    /* margin: 10px; */
+    padding: 8px;
+}
+
+.right {
+    float: right;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 80%;
+}
+  
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-container {
+    width: 600px;
+    background-color: #6A16F3;
+    margin-top: 60px;
+    border: 2px solid #748cab;
+    border-radius: 10px;
+}
+
+.form-h2 {
+    color: snow;
+    margin-top: 15px;
+}
+
+.name-tags {
+    margin-bottom: 10px;
+}
+
+.form-container input {
+    background: inherit;
+    color: snow;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.regbtn {
+    background-color: #f0ebd8;
+    color: #748cab;
+}

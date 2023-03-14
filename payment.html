@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Payment | ZenFlow Yoga</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/main.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/zen-fav.png" type="image/gif" />
+      <!-- My Fontawesome kits -->
+      <script src="https://kit.fontawesome.com/b4f667ebb8.js" crossorigin="anonymous"></script>
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+         
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout inner_page">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header class="full_bg">
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo"> -->
+                              <!-- <a href="index.html"><img src="images/zen-log.png" alt="#" /></a> -->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="container form-container">
+        <form method="post" action="pay.php">
+            <h2 class="form-h2" style="text-align: center;margin-bottom: 10px;">Checkout</h2>
+            <div class="form-group">
+              <label for="card_number" style="color: snow;">Card Number</label>
+              <input type="text" class="form-control" id="card_number" name="card_number" placeholder="Enter card number" required>
+              <span id="card_type"></span>
+            </div>
+            <div class="row">
+                <div class="form-group col">
+                    <label for="expiration_date" style="color: snow;">Expiration Date</label>
+                    <input type="month" class="form-control" id="expiration_date" name="expiration_date" placeholder="MM / YY" required>
+                  </div>
+                  <div class="form-group col">
+                    <label for="cvv" style="color: snow;">CVV</label>
+                    <input type="password" class="form-control" id="cvv" name="cvv" placeholder="Enter CVV" required>
+                  </div>
+            </div>
+            <button type="submit" class="btn btn-primary form-control regbtn" style="margin-bottom: 30px;" name="checkout">Checkout</button>
+        </form>          
+     </div>
+     <!-- end header inner -->
+     <script src="js/main.js"></script>
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/jquery-3.0.0.min.js"></script>
+     <!-- sidebar -->
+     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+     <script src="js/custom.js"></script>
+  </body>
+</html>
